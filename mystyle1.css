@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+h1 {
+    color:white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+p {
+    color:blueviolet;
+}
+
+.pertama{
+    color: pink;
+    font-style: italic;
+}
+
+header{
+    background-color: darkred;
+}
+
+nav{
+    background-color: cornflowerblue;
+    padding: 50px;
+}
+
+header > p{
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+header >nav {
+    color: white;
+}
+
+li>a{
+    color: white;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+main{
+    display: flex;
+}
+
+main {
+    display: flex;
+    gap: 50px;
+    margin : 30px;
+    
+}
+#content {
+    flex : 3;
+    box-shadow: 5px 15px 15px 9px rgba(0, 0, 0, 0.20);
+    border-radius: 12px;
+    background-color: wheat;
+}
+aside{
+    flex:1;
+    box-shadow: 5px 15px 15px 9px rgba(0, 0, 0, 0.20);
+    border-radius: 12px;
+    background-color: rgb(165, 42, 144);
+    text-align: center;
+}
+
+header{
+    background-color: blanchedalmond;
+}
+
+h2{
+    font-family: 'quicksand', sans-serif;
+    font-weight: 500;
+    color: palevioletred;
+    padding: 50px;
+}
+
+section{
+    color:blueviolet;
+}
+
+figcaption{
+    color:blueviolet;
+}
